@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+
+}
+main{
+    width: 1024px;
+    margin: 20px auto;
+}
+header{
+    height: 50px;
+    background: black;
+    position: relative;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+.logo{
+    margin: 5px 0 0 135x;
+}
+header nav a{
+    color: #AA562C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+header nav a:hover{
+    color: #e2d8d8;
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+#home{
+   
+   
+    color: aliceblue;
+
+    padding: 50px 100px;
+    text-align: center;
+    
+}
+
+
+#home p{
+    font-size: 16px;
+    line-height: 2;
+    color: #e2d8d8;
+}
+h1, h2, h3{
+    font-family: 'Bangers', cursive;
+}
+
+#planos{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+    
+   
+}
+.servicos{
+    
+    width: 32%;
+    float: left;
+    text-align: center;
+    
+}
+.imagem_servico{
+    width: 200px;
+    border-style: solid;
+    border-radius: 5px 50px;
+    border-color: #AA562C;
+    
+}
+.titulo_servico{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#parcerias{
+    background-color: #ce202000;
+    background-image: url('imagens/banner1.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+
+
+}
+#parcerias h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#parcerias p{
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+}
+
+#contato{
+    margin: 50px 0;
+    text-align: center;
+    color: #AA562C;
+
+}
+#contato p{
+    color: #e2d8d8;
+}
+#contato img{
+    width: 100px;
+    transition: width 0.3s linear
+}
+#contato img:hover{
+    width: 110px;
+
+}
+address{
+    color: #AA562C;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+#maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+footer{
+   
+    padding: 25px;
+    font-size: 12px;
+    color: #AA562C;
+    letter-spacing: 5px;
+    text-align: center;
+}
